@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/input_id"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="35dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/input_nama"
+        android:layout_marginTop="85dp"
+        android:layout_marginStart="35dp"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/etId"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_text"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="30dp"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/etNama"
+        android:inputType="text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_id"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="70dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvShowId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/view_id"
+        android:layout_marginTop="135dp"
+        android:layout_marginStart="35dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvShowName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/view_text"
+        android:layout_marginTop="175dp"
+        android:layout_marginStart="35dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginEnd="35dp"/>
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginEnd="35dp"/>
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="650dp"
+       android:layout_marginRight="35dp"/>
+
+
+</RelativeLayout>

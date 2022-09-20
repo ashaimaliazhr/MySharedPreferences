@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MySharedPreferences</string>
+    <string name="input_nama">Masukkan Nama : </string>
+    <string name="input_id">Masukkan Id : </string>
+    <string name="edit_id">Input Your Id </string>
+    <string name="edit_text">Input Your Name </string>
+    <string name="view_id">Idmu </string>
+    <string name="view_text">Namamu </string>
+</resources>
